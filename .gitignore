@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Ambiente virtual
+venv/
+.venv/
+
+# Jupyter (autosave causa conflito de merge)
+.ipynb_checkpoints/
+
+# Saidas geradas pelo notebook (reproduziveis)
+resultados/*
+!resultados/.gitkeep
+
+# Relatorio e entregue em PDF, fora do repositorio
+relatorio/
+
+# Material interno do grupo
+docs/
+_gabarito/
+
+# Editores e sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
